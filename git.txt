@@ -1,0 +1,8 @@
+git clone https/ssh (pobieranie jednego programu)
+git add . (pobieranie wszystkiego z folderu do repozytorium lokalnego)
+git commit -m init bibl (dodanie pojedynczej biblioteki?)
+git commit -m wprowadzone_zmiany
+git pull
+git push //wypchanie do repozytorium
+git add nowyPlik // i znowy commit, pull itd
+
