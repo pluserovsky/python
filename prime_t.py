@@ -4,7 +4,7 @@ import math
 
 def ifPrime(y):
 	t = 1
-	x = int(math.sqrt(y))
+	x = math.sqrt(y)
 
 	divider = 2
 	while divider <= x:	
@@ -17,11 +17,11 @@ def ifPrime(y):
 	return t		
 		
 
-def main():
+def PRIME_T():
 	y = int(input())
 	if ifPrime(y) == 0 or y == 1:
 		print('NIE') # returny zrobić
 	else:
 		print('TAK')
 
-main()
+PRIME_T()

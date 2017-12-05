@@ -16,7 +16,7 @@ def flamaste(napis):
 		
 		
 	
-def main():
+def FLAM():
 	
 	D = int(input())
 	j = 0
@@ -25,4 +25,4 @@ def main():
 		flamaste(napis)
 		j=j+1
 
-main()
+FLAM()
