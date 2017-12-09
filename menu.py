@@ -114,7 +114,7 @@ def ifPrime(y):
 def PRIME_T():
 	y = int(input())
 	if ifPrime(y) == 0 or y == 1:
-		print('NIE') # returny zrobić
+		print('NIE') 
 	else:
 		print('TAK')
 
